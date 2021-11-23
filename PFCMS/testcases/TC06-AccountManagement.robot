@@ -5,7 +5,6 @@ Resource          ${CURDIR}/../resources/variables/variable_login.robot
 Resource          ${CURDIR}/../keywords/common/common_keywords.robot
 Suite Teardown    Close All Browsers
 
-#test123123123123
 *** Test Cases ***
 TC01_Login and Verify Project Management
      [Documentation]     เข้าสู่ระบบสำเร็จและตรวจสอบความถูกต้องของ Project Management

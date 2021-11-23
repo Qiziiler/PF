@@ -96,7 +96,7 @@ TC10_Test send code via email
 TC11_Test send code via SMS
      [Documentation]     ทดสอบส่ง otp ไปที่ email ของ User ผู้ใช้งานเพื่อทำการเปลี่ยน password
      Click Element When Ready                    //span[@class="MuiButton-startIcon MuiButton-iconSizeSmall css-y6rp3m-MuiButton-startIcon"]
-     Click Element When Ready                    //span[@class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-c1fpez-MuiTypography-root"][text()="Send code via sms +66 *****0003"]
+     Click Element When Ready                    //span[@class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-20av09-MuiTypography-root"][text()="Send code via sms +66 *****0003"]
      Click Element When Ready                    //button[@type="submit"]
      Wait Until Page Contains                    Please check your SMS!
      Capture Page Screenshot

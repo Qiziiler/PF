@@ -10,7 +10,7 @@ TC01_Login and Verify User Profile
      [Documentation]   เข้าสู่ระบบสำเร็จและตรวจสอบความถูกต้องของ User Profile
      Open Browser      ${URL}      ${BROWSER}
      Set Window Size    1920   1080        
-     Input Text To Element When Ready          ${XPATH_FIELD_USERNAME}       ${EMAIL}           
+     # Input Text To Element When Ready          ${XPATH_FIELD_USERNAME}       ${EMAIL}           
      Input Text To Element When Ready          ${XPATH_FIELD_PASSWORD}       ${PASSWORD}     
      Click Element When Ready                  ${XPATH_BUTTON_LOGIN}
      ${NameUser}      Get Text From Element When Ready     //p[@class="MuiTypography-root MuiTypography-body1 css-1vcvdqw-MuiTypography-root"]

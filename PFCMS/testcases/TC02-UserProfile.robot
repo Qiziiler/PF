@@ -10,13 +10,13 @@ TC01_Login and Verify User Profile
      [Documentation]   เข้าสู่ระบบสำเร็จและตรวจสอบความถูกต้องของ User Profile
      Open Browser      ${URL}      ${BROWSER}
      Set Window Size    1920   1080        
-     Input Text To Element When Ready          ${XPATH_FIELD_USERNAME}       ${EMAIL}           
-     Input Text To Element When Ready          ${XPATH_FIELD_PASSWORD}       ${PASSWORD}     
-     Click Element When Ready                  ${XPATH_BUTTON_LOGIN}
-     ${NameUser}      Get Text From Element When Ready     //p[@class="MuiTypography-root MuiTypography-body1 css-1vcvdqw-MuiTypography-root"]
-     Click Element When Ready                  //p[@class="MuiTypography-root MuiTypography-body1 css-1vcvdqw-MuiTypography-root"]
-     Wait Until Page Contains                  ${NameUser}            ${TIME_WAIT}
-     Capture Page Screenshot
+     # Input Text To Element When Ready          ${XPATH_FIELD_USERNAME}       ${EMAIL}           
+     # Input Text To Element When Ready          ${XPATH_FIELD_PASSWORD}       ${PASSWORD}     
+     # Click Element When Ready                  ${XPATH_BUTTON_LOGIN}
+     # ${NameUser}      Get Text From Element When Ready     //p[@class="MuiTypography-root MuiTypography-body1 css-1vcvdqw-MuiTypography-root"]
+     # Click Element When Ready                  //p[@class="MuiTypography-root MuiTypography-body1 css-1vcvdqw-MuiTypography-root"]
+     # Wait Until Page Contains                  ${NameUser}            ${TIME_WAIT}
+     # Capture Page Screenshot
 
 TC02_Edit Name User Profile
      [Documentation]   ทดสอบแก้ไขชื่อ User Profile
